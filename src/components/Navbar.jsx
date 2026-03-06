@@ -1,18 +1,29 @@
 import { Component } from "react";
 import "./NavbarStyles.css";
 import { Link } from "react-router-dom";
+import { MenuItems } from "./MenuItems";
 class Navbar extends Component {
   render() {
     return (
       <nav className="NavBarItems">
         <h1 className="navbar-logo">Trippy</h1>
+
         <ul className="nav-menu">
-          <Link>
-            <i className="fa-sharp-duotone fa-light fa-house-user"></i>Home
-          </Link>
+          {MenuItems.map((item, index) => {
+            return (
+              <li key={index}>
+                <Link className={item.cName} to="/">
+                  <i className={item.icon}></i>
+                  {item.title}
+                </Link>
+              </li>
+            );
+          })}
+          <button>sign up</button>
         </ul>
       </nav>
     );
   }
 }
+
 export default Navbar;
