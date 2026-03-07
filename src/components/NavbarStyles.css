@@ -1,4 +1,5 @@
 .NavBarItems {
+  background-color: #fff;
   position: fixed; /* ← pins it to top */
   top: 20px; /* ← small gap from top edge */
   left: 50%; /* ← centers horizontally */
