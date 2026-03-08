@@ -1,11 +1,11 @@
 .hero {
-  width: 230vh;
+  width: 100%;
   height: 100vh;
   position: relative;
 }
 .hero-mid {
-  width: 230vh;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   position: relative;
   padding-bottom: 80px;
 }
@@ -16,6 +16,8 @@ img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  display: block;
+  max-width: 100%;
 }
 .hero-text {
   position: absolute;
@@ -23,6 +25,9 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
+  padding: 0 20px; /* 👈 add this */
+  text-align: center; /* 👈 add this */
+  box-sizing: border-box; /* 👈 add this */
 }
 .hero-text h1 {
   font-size: 3rem;

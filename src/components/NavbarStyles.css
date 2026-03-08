@@ -9,7 +9,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 30px;
+  padding: 0 15px;
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
   background-color: white; /* ← needed so content doesn't show through */
   width: 95%;
@@ -69,6 +69,12 @@ button:hover {
 @media screen and (max-width: 850px) {
   .NavBarItems {
     z-index: 99;
+    width: 100%; /* 👈 add this */
+    border-radius: 0; /* 👈 add this */
+    top: 0; /* 👈 add this */
+    left: 0; /* 👈 add this */
+    transform: none; /* 👈 add this */
+    padding: 0 20px;
   }
 
   .nav-menu {
@@ -83,7 +89,7 @@ button:hover {
     left: -100%;
     opacity: 0;
     align-items: center;
-    padding: 80px 0 30x 0;
+    padding: 80px 0 30px 0;
     margin: 0;
     z-index: -1;
     transition: 0.3s ease-in-out;
