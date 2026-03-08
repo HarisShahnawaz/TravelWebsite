@@ -1,20 +1,17 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
-import img12 from "../assets/12.jpg";
+import Serviceimg from "../assets/1.jpg";
 
 function Service() {
   return (
     <>
       <Navbar />
       <Hero
-        cName="hero"
-        heroimg={img12}
-        title="YOUR JOURNEY YOUR STORY"
-        text="Choose Your Favourite Destination"
-        buttonText="Travel Plan"
-        url="/"
-        btnClass="show"
+        cName="hero-mid"
+        heroimg={Serviceimg}
+        title="SERVICE"
+        btnClass="hide"
       />
     </>
   );
