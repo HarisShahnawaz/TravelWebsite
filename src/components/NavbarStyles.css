@@ -69,11 +69,11 @@ button:hover {
 @media screen and (max-width: 850px) {
   .NavBarItems {
     z-index: 99;
-    width: 100%; /* 👈 add this */
-    border-radius: 0; /* 👈 add this */
-    top: 0; /* 👈 add this */
-    left: 0; /* 👈 add this */
-    transform: none; /* 👈 add this */
+    width: 100%;
+    border-radius: 0;
+    top: 0;
+    left: 0;
+    transform: none;
     padding: 0 20px;
   }
 
