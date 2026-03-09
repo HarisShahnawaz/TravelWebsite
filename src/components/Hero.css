@@ -25,9 +25,9 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
-  padding: 0 20px; /* 👈 add this */
-  text-align: center; /* 👈 add this */
-  box-sizing: border-box; /* 👈 add this */
+  padding: 0 20px;
+  text-align: center;
+  box-sizing: border-box;
 }
 .hero-text h1 {
   font-size: 3rem;

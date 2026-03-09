@@ -21,11 +21,11 @@ function Trip() {
         />
         <TripData
           image={Trip2}
-          heading="Trip In Malaysia"
-          text=" Malaysia is a Southeast Asian nation known for its stunning blend of modernity and tradition,
-           where gleaming skyscrapers stand alongside ancient rainforests and diverse 
-           cultural heritage. Home to Malay, Chinese, Indian, and indigenous communities, 
-           it offers a rich tapestry of cuisines, festivals, and traditions"
+          heading="Trip In Pakistan"
+          text=" Pakistan, officially the Islamic Republic of Pakistan, is a South Asian nation blessed with an extraordinary diversity
+           of landscapes, cultures, and history. From the towering peaks of the Karakoram and Himalayas in the north to
+            the golden beaches of the Arabian Sea in the south, the country offers some of the most breathtaking scenery
+             on earth. "
         />
         <TripData
           image={Trip3}
