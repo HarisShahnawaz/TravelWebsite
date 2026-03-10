@@ -1,16 +1,35 @@
-# React + Vite
+# ✈️ Travel Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive travel website built with **React**, featuring destination 
+browsing and a modern UI. Deployed on Cloudflare Pages.
 
-Currently, two official plugins are available:
+## 🔗 Live Demo
+[View Live →](https://travel-website-byharry.harisshahnawaz97.workers.dev/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Screenshot
+![Travel Website Screenshot](screenshot.png)
 
-## React Compiler
+## 🛠️ Built With
+- React
+- CSS3
+- Vite
+- Deployed on Cloudflare Pages
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Getting Started
 
-## Expanding the ESLint configuration
+### Installation
+```bash
+git clone https://github.com/HarisShahnawaz/TravelWebsite
+cd TravelWebsite
+npm install
+npm run dev
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+- Responsive design for all screen sizes
+- Destination browsing section
+- Modern clean UI
+- Mobile-friendly navigation
+
+## 📬 Contact
+**Haris Shahnawaz** — [LinkedIn](https://www.linkedin.com/in/haris-shahnawaz-670aa8291/) | [Email](mailto:harisshahnawaz97@gmail.com)
